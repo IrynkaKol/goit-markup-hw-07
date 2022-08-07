@@ -80,11 +80,11 @@ ol {
   padding-top: 94px;
   padding-bottom: 94px;
 }
-
+/*
 .section.no-padding {
   padding-top: 0;
   padding-bottom: 0;
-}
+}*/
 
 .centered {
   text-align: center;
@@ -135,7 +135,7 @@ img {
 
 .logo {
   color: var(--text-main-color);
-  font-family: 'Raleway';
+  font-family: var();
   font-size: 26px;
   line-height: 1.19;
   text-decoration: none;
@@ -202,7 +202,9 @@ img {
 
 .contacts__mail {
   color: var(--accent-color);
+  margin-right: 50px;
 }
+
 
 .contacts__link {
   display: flex;
@@ -222,19 +224,13 @@ img {
 
  
 .contacts__mail-icon,
-.contacts--pfone-icon {
+.contacts__pfone-icon {
   margin-right: 10px;
 }
 
 
 
-.contacts__mail {
-  margin-right: 50px;
-  
-}
-.contacts__phone {
-  
-}
+
 
 
 .section-title {
