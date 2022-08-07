@@ -235,19 +235,15 @@ img {
 
 
 
-
-/*Hero*/
+/*Hero section*/
 .hero {
   background-color: #C4C4C4;
   text-align: center;
   padding: 200px 0;
   max-width: 1600px;
-  margin-left: auto;
-  margin-right: auto;
-  min-height: 600px;
-
- background-image: 
- linear-gradient(
+    min-height: 600px;
+  background-image: 
+  linear-gradient(
    to right,
    rgba(47, 48, 58, 0.4),
    rgba(47, 48, 58, 0.4)
@@ -258,10 +254,16 @@ img {
   background-size: cover;
 }
 
+.hero-container {
+  margin-left: auto;
+  margin-right: auto;
 
-.hero-title {
+}
+
+.hero__hero-title {
   color: var(--text-color);
   width: 696px;
+  font-family: var(--main-font);
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -273,7 +275,7 @@ img {
 
 }
 
-.hero-button {
+.hero__button {
   font-family: inherit;
   font-weight: 700;
   font-size: 16px;
@@ -295,7 +297,7 @@ img {
   padding-bottom: 94px;
 }
 
-.visually-hidden {
+.features--visually-hidden {
   position: absolute;
   white-space: nowrap;
   width: 1px;
@@ -308,7 +310,37 @@ img {
   margin: -1px;
 }
 
-.features .features-title {
+.features__list {
+  display: flex;
+  gap: 30px;
+}
+
+.features__item {
+  width: 270px;
+}
+
+
+.icon-image {
+display: flex;
+align-items: center;
+justify-content: center;
+background-color: #F5F4FA;
+border-radius: 4px;
+width: 270px;
+height: 120px;
+
+
+}
+
+.features__icon-image {
+  margin-bottom: 30px;
+}
+
+.features__item {
+justify-content: center;
+}
+
+.features__title {
   color: var(--title-text-color);
   font-weight: 700;
   font-size: 14px;
@@ -317,19 +349,13 @@ img {
   margin-bottom: 10px;
 }
 
-.features-title:last-child {
+.features__title:last-child {
   margin-right: 0;
 }
-.features-list {
-  display: flex;
-  gap: 30px;
-}
 
-.features-item {
-width: 270px;
-}
 
-.features-discription {
+
+.features__discription {
   font-size: 14px;
   line-height: 1.71;
 }
@@ -750,22 +776,7 @@ fill: currentColor;
 
 
 
-/*Features icons*/
-.icon-image {
-display: flex;
-align-items: center;
-justify-content: center;
-background-color: #F5F4FA;
-border-radius: 4px;
-width: 270px;
-height: 120px;
-margin-bottom: 30px;
 
-}
-
-.features-item {
-justify-content: center;
-}
 
 /*Socials team*/
 .socials {
