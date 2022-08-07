@@ -2,7 +2,7 @@
 :root {
   /*fonts*/***/*
 --main-font: 'Roboto', font-family;
---secondery-font: 'Raleway', font-family;
+--secondary-font: 'Raleway', font-family;
 
   /*colors*//*
   --primary-text-color: #757575;
@@ -10,6 +10,7 @@
   --text-main-color: #000000;
   --text-color: #ffffff;
   --accent-color: #2196f3;
+
 
 
 
@@ -124,7 +125,7 @@ img {
   border-bottom: solid #ECECEC;
     }
 
-.header-container {
+.header__container {
   display: flex;
   align-items: center;
 
@@ -132,26 +133,30 @@ img {
 
 
 
-
 .logo {
   color: var(--text-main-color);
-  font-family: var();
+  font-family: var(--secondary-font);
   font-size: 26px;
   line-height: 1.19;
   text-decoration: none;
   padding: 0;
-  margin-right: 93px;
+  
   padding: 25px 0;
+}
+
+.header__logo {
+  margin-right: 93px;
 }
 
 .logo__word {
   color: var(--accent-color);
 }
 
-/*Site nav*/
-.nav {
+/*Site navigation*/
+.header__nav {
   margin-right: auto;
 }
+
 .nav__list {
   display: flex;
   gap: 50px;
@@ -227,21 +232,6 @@ img {
 .contacts__pfone-icon {
   margin-right: 10px;
 }
-
-
-
-
-
-
-.section-title {
-  color: var(--title-text-color);
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.17;
-  text-align: center;
-}
-
-
 
 
 
@@ -346,29 +336,32 @@ width: 270px;
 
 
 /*About section*/
-.about {
-  padding-top: 0;
-}
 
 .section-title {
   color: var(--title-text-color);
   font-weight: 700;
   font-size: 36px;
+  line-height: 1.17;
   text-align: center;
 }
+
+.about {
+  padding-top: 0;
+}
+
 
 .about-list {
   display: flex;
   gap: 30px;
 }
 
-.about-item {
+.about-list__item {
   position: relative;
  
 }
 
 
-.about-name {
+.about-list__name {
   position: absolute;
   bottom: 0;
   left: 0;
@@ -387,8 +380,7 @@ width: 270px;
   padding-top: 27px;
   padding-bottom: 27px;
 
-
-  
+ 
 }
 
 /*Team section*/
