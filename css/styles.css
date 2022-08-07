@@ -120,7 +120,7 @@ img {
 }
  
 /*Header section*/
-.page-header {
+.header {
   border-bottom: solid #ECECEC;
     }
 
@@ -136,23 +136,20 @@ img {
   font-size: 26px;
   line-height: 1.19;
   text-decoration: none;
-    padding: 0;
- margin-right: 93px;
+  padding: 0;
+  margin-right: 93px;
   padding: 25px 0;
 }
 
-.logo-word {
+.logo__word {
   color: var(--accent-color);
 }
-.header-nav {
+.nav {
   margin-right: auto;
 }
-.site-nav {
+.nav__list {
   display: flex;
   gap: 50px;
-
-  
-  
 }
 
 .header-mail {
@@ -222,7 +219,7 @@ img {
   color: var(--accent-color);
 }
 
-.header-item:last-child {
+.header__item:last-child {
   margin-right: 0;
 }
 
