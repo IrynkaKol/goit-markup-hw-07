@@ -186,6 +186,8 @@ img {
 }
 
 .contacts__mail {
+  display: flex;
+  gap: 10px;
   position: relative;
   color: var(--accent-color);
   margin-right: 50px;
@@ -220,16 +222,9 @@ img {
   
 }
 
-.contacts__mail-icon,
+.contacts__mail-icon {
 
- {
-  display: block;
-  position: absolute;
-  text-align: center;
-  position: absolute;
-  top: 45%;
-  left: -23px;
-  transform: translate(-50);
+ 
 }
 
 .contacts__pfone-icon {
