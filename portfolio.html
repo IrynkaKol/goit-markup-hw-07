@@ -25,7 +25,7 @@
   <body>
     <!--Header section-->
     <header class="header">
-      <div class="container header-section">
+      <div class="container header__container">
         <a class="logo header__logo" href="" lang="en"><span class="logo__word">Web</span>Studio</a>
         <nav class="nav header__nav">
           <ul class="nav__list list">
@@ -51,10 +51,10 @@
             >
               <svg class="contacts__mail-icon" width="16" height="12">
                 <use href="./images/icons.svg#icon-icon-mail"></use></svg
-              >info@devstudio.com</a
-            >
+              >info@devstudio.com
+            </a>
           </li>
-          <li class="header-phone">
+          <li class="header__phone">
             <a
               class="contacts__link link"
               href="phone:+380991111111"
@@ -75,9 +75,9 @@
       <!--Filter section-->
       <section class="portfolio">
         <div class="container">
-          <h1 class="visually-hidden">Навігація</h1>
+          <h1 class="portfolio__visually-hidden">Навігація</h1>
           <ul class="filter-nav">
-            <li class="filter-item">
+            <li class="filter-nav__item">
               <button class="button portfolio-btn" type="button">Все</button>
             </li>
             <li class="filter-item">
@@ -96,12 +96,18 @@
 
           <!--Portfolio-->
 
-          <h1 class="visually-hidden">Портфоліо</h1>
+          <h1 class="portfolio__visually-hidden">Портфоліо</h1>
           <ul class="card-set portfolio-list list">
-            <li class="card-set-item portfolio-item">
-              <a class="link" href="">
-                <div class="discription">
-                  <img src="./images/portfolio/img1.jpg" alt="технокряк" width="370" height="294" />
+            <li class="card-set__item">
+              <a class="card-set__link link" href="">
+                <div class="card-set__discription">
+                  <img
+                    src="./images/portfolio/img1.jpg"
+                    alt="технокряк"
+                    width="370"
+                    height="294"
+                    class="card-set__img"
+                  />
                   <div class="overlay">
                     <p>
                       Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів.
@@ -117,13 +123,13 @@
                 </div>
               </a>
             </li>
-            <li class="card-set-item portfolio-item">
-              <a class="link" href="">
-                <div class="discription">
+            <li class="card-set__item">
+              <a class="card-set__link link" href="">
+                <div class="card-set__discription">
                   <img
                     src="./images/portfolio/group1.jpg"
                     alt="постер баскетбол"
-                    class="portfolio-img"
+                    class="card-set__img"
                     width="370"
                     height="294"
                   />
@@ -142,13 +148,13 @@
               </a>
             </li>
 
-            <li class="card-set-item portfolio-item">
-              <a class="link" href="">
-                <div class="discription">
+            <li class="card-set__item">
+              <a class="card-set__link link" href="">
+                <div class="card-set__discription">
                   <img
                     src="./images/portfolio/imgrest.jpg"
                     alt="ресторан"
-                    class="portfolio-img"
+                    class="card-set__img"
                     width="370"
                     height="294"
                   />
@@ -168,13 +174,13 @@
               </a>
             </li>
 
-            <li class="card-set-item portfolio-item">
-              <a class="link" href="">
-                <div class="discription">
+            <li class="card-set__item">
+              <a class="card-set__link link" href="">
+                <div class="card-set__discription">
                   <img
                     src="./images/portfolio/imgearfhone.jpg"
                     alt="наушники"
-                    class="portfolio-img"
+                    class="card-set__img"
                     width="370"
                     height="294"
                   />
@@ -192,13 +198,13 @@
                 </div>
               </a>
             </li>
-            <li class="card-set-item portfolio-item">
-              <a class="link" href="">
-                <div class="discription">
+            <li class="card-set__item">
+              <a class="card-set__link link" href="">
+                <div class="card-set__discription">
                   <img
                     src="./images/portfolio/imgbox.jpg"
                     alt="коробки"
-                    class="portfolio-img"
+                    class="card-set__img"
                     width="370"
                     height="294"
                   />
@@ -216,13 +222,13 @@
                 </div>
               </a>
             </li>
-            <li class="card-set-item portfolio-item">
-              <a class="link" href="">
-                <div class="discription">
+            <li class="card-set__item">
+              <a class="card-set__link link" href="">
+                <div class="card-set__discription">
                   <img
                     src="./images/portfolio/imgmonitor.jpg"
                     alt="монитор"
-                    class="portfolio-img"
+                    class="card-set__img"
                     width="370"
                     height="294"
                   />
@@ -240,13 +246,13 @@
                 </div>
               </a>
             </li>
-            <li class="card-set-item portfolio-item">
-              <a class="link" href="">
-                <div class="discription">
+            <li class="card-set__item">
+              <a class="card-set__link link" href="">
+                <div class="card-set__discription">
                   <img
                     src="./images/portfolio/imgbook.jpg"
                     alt="книга"
-                    class="portfolio-img"
+                    class="card-set__img"
                     width="370"
                     height="294"
                   />
@@ -264,13 +270,13 @@
                 </div>
               </a>
             </li>
-            <li class="card-set-item portfolio-item">
-              <a class="link" href="">
-                <div class="discription">
+            <li class="card-set__item">
+              <a class="card-set__link link" href="">
+                <div class="card-set__discription">
                   <img
                     src="./images/portfolio/imglab.jpg"
                     alt="бирка"
-                    class="portfolio-img"
+                    class="card-set__img"
                     width="370"
                     height="294"
                   />
@@ -288,13 +294,13 @@
                 </div>
               </a>
             </li>
-            <li class="card-set-item portfolio-item">
-              <a class="link" href="">
-                <div class="discription">
+            <li class="card-set__item">
+              <a class="card-set__link link" href="">
+                <div class="card-set__discription">
                   <img
                     src="./images/portfolio/imglaptop.jpg"
                     alt="ноутбук"
-                    class="portfolio-img"
+                    class="card-set__img"
                     width="370"
                     height="294"
                   />
