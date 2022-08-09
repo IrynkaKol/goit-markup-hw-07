@@ -492,13 +492,8 @@ img {
   display: -ms-flexbox;
   display: flex;
   gap: 10px;
-  position: relative;
   color: var(--accent-color);
   margin-right: 50px;
-}
-
-.contacts__phone {
-  position: relative;
 }
 
 .contacts__link {
@@ -527,7 +522,6 @@ img {
 
 .contacts__pfone-icon {
   display: block;
-  position: absolute;
   text-align: center;
   position: absolute;
   top: 45%;
@@ -1135,7 +1129,7 @@ img {
   border-right: 1px solid #EEEEEE;
 }
 
-.portfolio .title {
+.portfolio__title {
   color: var(--title-text-color);
   font-weight: 700;
   font-size: 18px;
