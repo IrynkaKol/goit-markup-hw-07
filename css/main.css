@@ -496,6 +496,15 @@ img {
   margin-right: 50px;
 }
 
+.contacts__phone {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 10px;
+  color: var(--accent-color);
+  margin-right: 50px;
+}
+
 .contacts__link {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -520,16 +529,15 @@ img {
   color: #757575;
 }
 
+/*
 .contacts__pfone-icon {
-  display: block;
-  text-align: center;
-  position: absolute;
-  top: 45%;
-  left: -23px;
-  -webkit-transform: translate(-50);
-          transform: translate(-50);
-}
-
+    display: block;
+    text-align: center;
+    position: absolute;
+    top: 45%;
+    left: -23px;
+    transform: translate(-50);
+}*/
 .contacts__mail-icon,
 .contacts__pfone-icon {
   fill: currentColor;
