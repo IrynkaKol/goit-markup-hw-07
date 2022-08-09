@@ -1,0 +1,15 @@
+/*card set*/
+
+.card-set {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    gap: var(--indent);
+}
+
+
+.card-set__item {
+    flex-basis: calc((100% - var(var(--indent)) * (var(--items)-1)) / var (--items));
+    color: var(--title-text-color);
+
+}
