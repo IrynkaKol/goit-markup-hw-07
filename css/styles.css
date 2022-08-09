@@ -566,6 +566,7 @@ justify-content: center;
 
 
 /*Footer sectiom*/
+/*
 .footer {
   background-color: #2f303a;
   padding-top: 60px;
@@ -633,9 +634,10 @@ justify-content: center;
   margin-bottom: 9px;  
 }
 
+*/
 
-
-/*footer icons*/
+/*footer icons*/ 
+/*
 .footer-social__link {
   display: flex;
   align-items: center;
